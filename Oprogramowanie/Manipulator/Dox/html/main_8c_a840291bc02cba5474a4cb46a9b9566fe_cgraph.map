@@ -1,0 +1,23 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration. " alt="" coords="114,5,257,32"/>
+<area shape="rect" id="node4" href="$gpio_8c.html#ac724e431d2af879252de35615be2bdea" title="MX_GPIO_Init" alt="" coords="134,208,237,235"/>
+<area shape="rect" id="node5" href="$tim_8c.html#ad1f9d42690163f73f73e5b820c81ca14" title="MX_TIM1_Init" alt="" coords="136,107,235,133"/>
+<area shape="rect" id="node7" href="$tim_8c.html#a7912f2916786a2c33cb6fb8259ade58c" title="MX_TIM3_Init" alt="" coords="136,157,235,184"/>
+<area shape="rect" id="node8" href="$usart_8c.html#a052088fe5bb3f807a4b2502e664fd4fd" title="MX_USART2_UART_Init" alt="" coords="104,56,267,83"/>
+<area shape="rect" id="node9" href="$main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="667,284,740,311"/>
+<area shape="rect" id="node10" href="$main_8c.html#ad7b32593f513de2db1142dfcc3a2ff65" title="Funkcja pozwalająca odebrać liczbę całkowitą. " alt="" coords="140,664,231,691"/>
+<area shape="rect" id="node12" href="$main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="320,461,460,488"/>
+<area shape="rect" id="node14" href="$main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="660,461,747,488"/>
+<area shape="rect" id="node18" href="$main_8c.html#ac2c750bf9a93408a4399329068ff09d8" title="Funkcja pozwalająca otworzyć chwytak. " alt="" coords="525,563,600,589"/>
+<area shape="rect" id="node19" href="$main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="327,411,453,437"/>
+<area shape="rect" id="node20" href="$main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="519,309,606,336"/>
+<area shape="rect" id="node21" href="$main_8c.html#aa92be402b1276438c663ab0af2e56034" title="Funkcja pozwalająca zamknąć chwytak. " alt="" coords="147,715,224,741"/>
+<area shape="rect" id="node22" href="$main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="156,411,215,437"/>
+<area shape="rect" id="node3" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence. " alt="" coords="339,69,441,96"/>
+<area shape="rect" id="node6" href="$tim_8c.html#a708f19bbc41b292fccf38f2d9796c46a" title="HAL_TIM_MspPostInit" alt="" coords="315,145,465,172"/>
+<area shape="rect" id="node11" href="$main_8c.html#a0da3452cae452719df4089ac75fb14b1" title="Funkcja odbierająca jeden znak z USART&#45;a oraz wysyłająca ten sam znak z powrotem. ..." alt="" coords="352,664,428,691"/>
+<area shape="rect" id="node13" href="$main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="520,411,605,437"/>
+<area shape="rect" id="node15" href="$main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="513,461,612,488"/>
+<area shape="rect" id="node16" href="$main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="523,512,602,539"/>
+<area shape="rect" id="node17" href="$main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="524,360,601,387"/>
+</map>

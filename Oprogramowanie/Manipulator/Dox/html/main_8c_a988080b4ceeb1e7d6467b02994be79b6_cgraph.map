@@ -1,0 +1,10 @@
+<map id="MoveL" name="MoveL">
+<area shape="rect" id="node2" href="$main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="112,107,237,133"/>
+<area shape="rect" id="node3" href="$main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="291,5,378,32"/>
+<area shape="rect" id="node5" href="$main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="296,56,373,83"/>
+<area shape="rect" id="node7" href="$main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="292,107,377,133"/>
+<area shape="rect" id="node8" href="$main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="295,157,374,184"/>
+<area shape="rect" id="node9" href="$main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="285,208,384,235"/>
+<area shape="rect" id="node4" href="$main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="439,5,512,32"/>
+<area shape="rect" id="node6" href="$main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="432,132,519,159"/>
+</map>

@@ -1,0 +1,10 @@
+#
+#Sun May 26 11:45:29 CEST 2019
+Src/usart.c=1
+Src/main.c=1
+Debug/Src/main.o=1
+Debug/Src/usart.o=1
+Inc/usart.h=1
+Debug/Manipulator=1
+Debug/Manipulator.elf=1
+Manipulator.elf=1

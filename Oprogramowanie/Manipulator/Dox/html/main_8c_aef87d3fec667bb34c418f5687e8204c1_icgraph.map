@@ -1,0 +1,10 @@
+<map id="HAL_Delay" name="HAL_Delay">
+<area shape="rect" id="node2" href="$main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="147,111,232,137"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="581,85,632,112"/>
+<area shape="rect" id="node7" href="$main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="150,161,229,188"/>
+<area shape="rect" id="node8" href="$main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="140,212,239,239"/>
+<area shape="rect" id="node9" href="$main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="151,60,228,87"/>
+<area shape="rect" id="node3" href="$main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="287,161,427,188"/>
+<area shape="rect" id="node5" href="$main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="294,111,419,137"/>
+<area shape="rect" id="node6" href="$main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="475,60,533,87"/>
+</map>

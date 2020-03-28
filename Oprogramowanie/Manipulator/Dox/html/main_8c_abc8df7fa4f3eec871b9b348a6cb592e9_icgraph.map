@@ -1,0 +1,6 @@
+<map id="moveZero" name="moveZero">
+<area shape="rect" id="node2" href="$main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="304,5,444,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="131,56,256,83"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="492,56,543,83"/>
+<area shape="rect" id="node5" href="$main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="345,107,403,133"/>
+</map>

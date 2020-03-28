@@ -1,0 +1,5 @@
+<map id="HAL_TIM_MspPostInit" name="HAL_TIM_MspPostInit">
+<area shape="rect" id="node2" href="$tim_8c.html#ad1f9d42690163f73f73e5b820c81ca14" title="MX_TIM1_Init" alt="" coords="204,5,303,32"/>
+<area shape="rect" id="node4" href="$tim_8c.html#a7912f2916786a2c33cb6fb8259ade58c" title="MX_TIM3_Init" alt="" coords="204,56,303,83"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="351,31,401,57"/>
+</map>

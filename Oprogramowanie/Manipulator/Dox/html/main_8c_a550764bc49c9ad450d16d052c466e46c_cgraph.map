@@ -1,0 +1,9 @@
+<map id="UstawManipulator" name="UstawManipulator">
+<area shape="rect" id="node2" href="$main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="185,5,271,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="189,56,267,83"/>
+<area shape="rect" id="node6" href="$main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="185,107,271,133"/>
+<area shape="rect" id="node7" href="$main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="189,157,267,184"/>
+<area shape="rect" id="node8" href="$main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="179,208,277,235"/>
+<area shape="rect" id="node3" href="$main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="332,5,405,32"/>
+<area shape="rect" id="node5" href="$main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="325,132,412,159"/>
+</map>

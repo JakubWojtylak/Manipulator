@@ -1,0 +1,1355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Manipulator: Dokumentacja pliku main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Manipulator
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.14 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main_8c.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definicje</a> &#124;
+<a href="#func-members">Funkcje</a> &#124;
+<a href="#var-members">Zmienne</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>: Main program body  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &quot;main.h&quot;</code><br />
+<code>#include &quot;tim.h&quot;</code><br />
+<code>#include &quot;usart.h&quot;</code><br />
+<code>#include &quot;gpio.h&quot;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Wykres zależności załączania dla main.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c__incl.png" border="0" usemap="#main_8c" alt=""/></div>
+</div>
+</div>
+<p><a href="main_8c_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definicje</h2></td></tr>
+<tr class="memitem:a1ce864b284ac751ffd8a0d98d5ccab55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a1ce864b284ac751ffd8a0d98d5ccab55">L1</a>&#160;&#160;&#160;5</td></tr>
+<tr class="memdesc:a1ce864b284ac751ffd8a0d98d5ccab55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wysokość podstawy.  <a href="#a1ce864b284ac751ffd8a0d98d5ccab55">Więcej...</a><br /></td></tr>
+<tr class="separator:a1ce864b284ac751ffd8a0d98d5ccab55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab983f03862f557a786ccc43b26522e16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ab983f03862f557a786ccc43b26522e16">L2</a>&#160;&#160;&#160;8.2</td></tr>
+<tr class="memdesc:ab983f03862f557a786ccc43b26522e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Długość pierwszego członu.  <a href="#ab983f03862f557a786ccc43b26522e16">Więcej...</a><br /></td></tr>
+<tr class="separator:ab983f03862f557a786ccc43b26522e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7771a73a8014204aeeecaaf58527b670"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a7771a73a8014204aeeecaaf58527b670">L3</a>&#160;&#160;&#160;7.7</td></tr>
+<tr class="memdesc:a7771a73a8014204aeeecaaf58527b670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Długość drugiego członu.  <a href="#a7771a73a8014204aeeecaaf58527b670">Więcej...</a><br /></td></tr>
+<tr class="separator:a7771a73a8014204aeeecaaf58527b670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ede60bb20906da26821f9d2e9ff549f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a3ede60bb20906da26821f9d2e9ff549f">L4</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a3ede60bb20906da26821f9d2e9ff549f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Długość między przegubem, a osią serwomechanizmu od chwytaka.  <a href="#a3ede60bb20906da26821f9d2e9ff549f">Więcej...</a><br /></td></tr>
+<tr class="separator:a3ede60bb20906da26821f9d2e9ff549f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033181339c5aa204f29b3aa38719b6b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a033181339c5aa204f29b3aa38719b6b5">L5</a>&#160;&#160;&#160;2.1</td></tr>
+<tr class="memdesc:a033181339c5aa204f29b3aa38719b6b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obniżenie na chwytaku.  <a href="#a033181339c5aa204f29b3aa38719b6b5">Więcej...</a><br /></td></tr>
+<tr class="separator:a033181339c5aa204f29b3aa38719b6b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51535c7275788228bd8508488f73b9f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a51535c7275788228bd8508488f73b9f4">L6</a>&#160;&#160;&#160;6</td></tr>
+<tr class="memdesc:a51535c7275788228bd8508488f73b9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Długosc między osią serwomechanizmu chwytaka, a punktem chwytu.  <a href="#a51535c7275788228bd8508488f73b9f4">Więcej...</a><br /></td></tr>
+<tr class="separator:a51535c7275788228bd8508488f73b9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a70af21c671abfcc773614a9a4f63d920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920">SystemClock_Config</a> (void)</td></tr>
+<tr class="memdesc:a70af21c671abfcc773614a9a4f63d920"><td class="mdescLeft">&#160;</td><td class="mdescRight">System Clock Configuration.  <a href="#a70af21c671abfcc773614a9a4f63d920">Więcej...</a><br /></td></tr>
+<tr class="separator:a70af21c671abfcc773614a9a4f63d920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0da3452cae452719df4089ac75fb14b1"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a0da3452cae452719df4089ac75fb14b1">UartEcho</a> (void)</td></tr>
+<tr class="memdesc:a0da3452cae452719df4089ac75fb14b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja odbierająca jeden znak z USART-a oraz wysyłająca ten sam znak z powrotem.  <a href="#a0da3452cae452719df4089ac75fb14b1">Więcej...</a><br /></td></tr>
+<tr class="separator:a0da3452cae452719df4089ac75fb14b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da5be2e36ac953449e0dc9610b75dd7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7">UartPrint</a> (char *str)</td></tr>
+<tr class="memdesc:a9da5be2e36ac953449e0dc9610b75dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu)  <a href="#a9da5be2e36ac953449e0dc9610b75dd7">Więcej...</a><br /></td></tr>
+<tr class="separator:a9da5be2e36ac953449e0dc9610b75dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ba83b58516abbf468a40d577a09453"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a13ba83b58516abbf468a40d577a09453">UartPrintInt</a> (int liczba)</td></tr>
+<tr class="memdesc:a13ba83b58516abbf468a40d577a09453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca wysłac liczbę całkowitą przez USART-a.  <a href="#a13ba83b58516abbf468a40d577a09453">Więcej...</a><br /></td></tr>
+<tr class="separator:a13ba83b58516abbf468a40d577a09453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b32593f513de2db1142dfcc3a2ff65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ad7b32593f513de2db1142dfcc3a2ff65">UartReadInt</a> (int *num, int min, int max)</td></tr>
+<tr class="memdesc:ad7b32593f513de2db1142dfcc3a2ff65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca odebrać liczbę całkowitą.  <a href="#ad7b32593f513de2db1142dfcc3a2ff65">Więcej...</a><br /></td></tr>
+<tr class="separator:ad7b32593f513de2db1142dfcc3a2ff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae494a9643f29b87d6d81e5264e60e57b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ae494a9643f29b87d6d81e5264e60e57b">HAL_UART_RxCpltCallback</a> (UART_HandleTypeDef *huart)</td></tr>
+<tr class="memdesc:ae494a9643f29b87d6d81e5264e60e57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja obsługująca przerwanie po odebraniu danych.  <a href="#ae494a9643f29b87d6d81e5264e60e57b">Więcej...</a><br /></td></tr>
+<tr class="separator:ae494a9643f29b87d6d81e5264e60e57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdf9b59049eccbc87d54042f9235b1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#abcdf9b59049eccbc87d54042f9235b1a">HAL_UART_TxCpltCallback</a> (UART_HandleTypeDef *huart)</td></tr>
+<tr class="memdesc:abcdf9b59049eccbc87d54042f9235b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja obsługująca przerwanie po wysłaniu danych.  <a href="#abcdf9b59049eccbc87d54042f9235b1a">Więcej...</a><br /></td></tr>
+<tr class="separator:abcdf9b59049eccbc87d54042f9235b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef87d3fec667bb34c418f5687e8204c1"><td class="memItemLeft" align="right" valign="top">__weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1">HAL_Delay</a> (__IO uint32_t Delay)</td></tr>
+<tr class="memdesc:aef87d3fec667bb34c418f5687e8204c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach.  <a href="#aef87d3fec667bb34c418f5687e8204c1">Więcej...</a><br /></td></tr>
+<tr class="separator:aef87d3fec667bb34c418f5687e8204c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bf915baf8c7f32d9ed62add6f16b1f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f">moveAlpha</a> (uint16_t alpha, uint16_t del, uint16_t skok)</td></tr>
+<tr class="memdesc:a79bf915baf8c7f32d9ed62add6f16b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt.  <a href="#a79bf915baf8c7f32d9ed62add6f16b1f">Więcej...</a><br /></td></tr>
+<tr class="separator:a79bf915baf8c7f32d9ed62add6f16b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac4a4e4200308592b2b65edd4e43f18"><td class="memItemLeft" align="right" valign="top">*uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18">moveBeta</a> (uint16_t beta, uint16_t del, uint16_t skok)</td></tr>
+<tr class="memdesc:aeac4a4e4200308592b2b65edd4e43f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem.  <a href="#aeac4a4e4200308592b2b65edd4e43f18">Więcej...</a><br /></td></tr>
+<tr class="separator:aeac4a4e4200308592b2b65edd4e43f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0aa87a82b7fe68723cdf2ed03734bce"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce">moveGamma</a> (uint16_t gamma, uint16_t del, uint16_t skok)</td></tr>
+<tr class="memdesc:af0aa87a82b7fe68723cdf2ed03734bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem.  <a href="#af0aa87a82b7fe68723cdf2ed03734bce">Więcej...</a><br /></td></tr>
+<tr class="separator:af0aa87a82b7fe68723cdf2ed03734bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8df7fa4f3eec871b9b348a6cb592e9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9">moveZero</a> (uint16_t zero, uint16_t del, uint16_t skok)</td></tr>
+<tr class="memdesc:abc8df7fa4f3eec871b9b348a6cb592e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca zmieniać kąt obrotu manipulatora.  <a href="#abc8df7fa4f3eec871b9b348a6cb592e9">Więcej...</a><br /></td></tr>
+<tr class="separator:abc8df7fa4f3eec871b9b348a6cb592e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92be402b1276438c663ab0af2e56034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aa92be402b1276438c663ab0af2e56034">closeGrip</a> ()</td></tr>
+<tr class="memdesc:aa92be402b1276438c663ab0af2e56034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca zamknąć chwytak.  <a href="#aa92be402b1276438c663ab0af2e56034">Więcej...</a><br /></td></tr>
+<tr class="separator:aa92be402b1276438c663ab0af2e56034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c750bf9a93408a4399329068ff09d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ac2c750bf9a93408a4399329068ff09d8">openGrip</a> ()</td></tr>
+<tr class="memdesc:ac2c750bf9a93408a4399329068ff09d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca otworzyć chwytak.  <a href="#ac2c750bf9a93408a4399329068ff09d8">Więcej...</a><br /></td></tr>
+<tr class="separator:ac2c750bf9a93408a4399329068ff09d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a7834ccd55982ba2f868a6da96ce1ab"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab">PozycjaPoczatkowa</a> ()</td></tr>
+<tr class="memdesc:a5a7834ccd55982ba2f868a6da96ce1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja ustawiająca manipulator w pozycji początkowej.  <a href="#a5a7834ccd55982ba2f868a6da96ce1ab">Więcej...</a><br /></td></tr>
+<tr class="separator:a5a7834ccd55982ba2f868a6da96ce1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550764bc49c9ad450d16d052c466e46c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c">UstawManipulator</a> (int16_t X, int16_t Y, int16_t Z)</td></tr>
+<tr class="memdesc:a550764bc49c9ad450d16d052c466e46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej.  <a href="#a550764bc49c9ad450d16d052c466e46c">Więcej...</a><br /></td></tr>
+<tr class="separator:a550764bc49c9ad450d16d052c466e46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988080b4ceeb1e7d6467b02994be79b6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6">MoveL</a> (int16_t X1, int16_t Y1, int16_t Z1, int16_t X2, int16_t Y2, int16_t Z2, uint8_t Dokladnosc)</td></tr>
+<tr class="memdesc:a988080b4ceeb1e7d6467b02994be79b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie).  <a href="#a988080b4ceeb1e7d6467b02994be79b6">Więcej...</a><br /></td></tr>
+<tr class="separator:a988080b4ceeb1e7d6467b02994be79b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application entry point.  <a href="#a840291bc02cba5474a4cb46a9b9566fe">Więcej...</a><br /></td></tr>
+<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1730ffe1e560465665eb47d9264826f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9">Error_Handler</a> (void)</td></tr>
+<tr class="memdesc:a1730ffe1e560465665eb47d9264826f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is executed in case of error occurrence.  <a href="#a1730ffe1e560465665eb47d9264826f9">Więcej...</a><br /></td></tr>
+<tr class="separator:a1730ffe1e560465665eb47d9264826f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Zmienne</h2></td></tr>
+<tr class="memitem:a5eae7af46e982ef168412df1135623d0"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a5eae7af46e982ef168412df1135623d0">MaxymalneZ</a> [] = {19, 19, 19, 18, 17, 16, 15, 13, 11, 9}</td></tr>
+<tr class="memdesc:a5eae7af46e982ef168412df1135623d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tablica z kolejnymi maksymalnymi wartościami współrzędnej Z.  <a href="#a5eae7af46e982ef168412df1135623d0">Więcej...</a><br /></td></tr>
+<tr class="separator:a5eae7af46e982ef168412df1135623d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c11fe6524ed9bf1f8eec662d4546ab5"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a1c11fe6524ed9bf1f8eec662d4546ab5">rx_data</a> = '0'</td></tr>
+<tr class="memdesc:a1c11fe6524ed9bf1f8eec662d4546ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zmienna przechowująca odebrane dane.  <a href="#a1c11fe6524ed9bf1f8eec662d4546ab5">Więcej...</a><br /></td></tr>
+<tr class="separator:a1c11fe6524ed9bf1f8eec662d4546ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf15ad508746eaf707a7a8fe342c329a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aaf15ad508746eaf707a7a8fe342c329a">tx_data</a> [32]</td></tr>
+<tr class="memdesc:aaf15ad508746eaf707a7a8fe342c329a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tablica przechowująca dane do wysłania.  <a href="#aaf15ad508746eaf707a7a8fe342c329a">Więcej...</a><br /></td></tr>
+<tr class="separator:aaf15ad508746eaf707a7a8fe342c329a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584081da60a691a629f5daa931fe9697"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a584081da60a691a629f5daa931fe9697">usart_rx</a></td></tr>
+<tr class="memdesc:a584081da60a691a629f5daa931fe9697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flaga ustawiana przy odebraniu danych z USART-a.  <a href="#a584081da60a691a629f5daa931fe9697">Więcej...</a><br /></td></tr>
+<tr class="separator:a584081da60a691a629f5daa931fe9697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb506becc4c517474633dd64147be57d"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#abb506becc4c517474633dd64147be57d">usart_tx</a></td></tr>
+<tr class="memdesc:abb506becc4c517474633dd64147be57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flaga ustawiana po wysłaniu danych z USART-a.  <a href="#abb506becc4c517474633dd64147be57d">Więcej...</a><br /></td></tr>
+<tr class="separator:abb506becc4c517474633dd64147be57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><dl class="section attention"><dt>Uwaga</dt><dd></dd></dl>
+<h2><center>&copy; Copyright (c) 2019 STMicroelectronics. All rights reserved.</center></h2>
+<p>This software component is licensed by ST under BSD 3-Clause license, the "License"; You may not use this file except in compliance with the License. You may obtain a copy of the License at: opensource.org/licenses/BSD-3-Clause </p>
+
+<p class="definition">Definicja w pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+</div><h2 class="groupheader">Dokumentacja definicji</h2>
+<a id="a1ce864b284ac751ffd8a0d98d5ccab55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce864b284ac751ffd8a0d98d5ccab55">&#9670;&nbsp;</a></span>L1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L1&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Wysokość podstawy. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00044">44</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="ab983f03862f557a786ccc43b26522e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab983f03862f557a786ccc43b26522e16">&#9670;&nbsp;</a></span>L2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L2&#160;&#160;&#160;8.2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Długość pierwszego członu. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00050">50</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a7771a73a8014204aeeecaaf58527b670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7771a73a8014204aeeecaaf58527b670">&#9670;&nbsp;</a></span>L3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L3&#160;&#160;&#160;7.7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Długość drugiego członu. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00056">56</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a3ede60bb20906da26821f9d2e9ff549f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ede60bb20906da26821f9d2e9ff549f">&#9670;&nbsp;</a></span>L4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L4&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Długość między przegubem, a osią serwomechanizmu od chwytaka. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00062">62</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a033181339c5aa204f29b3aa38719b6b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033181339c5aa204f29b3aa38719b6b5">&#9670;&nbsp;</a></span>L5</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L5&#160;&#160;&#160;2.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Obniżenie na chwytaku. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00068">68</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a51535c7275788228bd8508488f73b9f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51535c7275788228bd8508488f73b9f4">&#9670;&nbsp;</a></span>L6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define L6&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Długosc między osią serwomechanizmu chwytaka, a punktem chwytu. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00074">74</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="aa92be402b1276438c663ab0af2e56034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92be402b1276438c663ab0af2e56034">&#9670;&nbsp;</a></span>closeGrip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void closeGrip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca zamknąć chwytak. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00524">524</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_aa92be402b1276438c663ab0af2e56034_icgraph.png" border="0" usemap="#main_8c_aa92be402b1276438c663ab0af2e56034_icgraph" alt=""/></div>
+<map name="main_8c_aa92be402b1276438c663ab0af2e56034_icgraph" id="main_8c_aa92be402b1276438c663ab0af2e56034_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="131,5,181,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1730ffe1e560465665eb47d9264826f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1730ffe1e560465665eb47d9264826f9">&#9670;&nbsp;</a></span>Error_Handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Error_Handler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l01184">1184</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a1730ffe1e560465665eb47d9264826f9_icgraph.png" border="0" usemap="#main_8c_a1730ffe1e560465665eb47d9264826f9_icgraph" alt=""/></div>
+<map name="main_8c_a1730ffe1e560465665eb47d9264826f9_icgraph" id="main_8c_a1730ffe1e560465665eb47d9264826f9_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration. " alt="" coords="165,5,307,32"/>
+<area shape="rect" id="node4" href="tim_8c.html#ad1f9d42690163f73f73e5b820c81ca14" title="MX_TIM1_Init" alt="" coords="187,56,285,83"/>
+<area shape="rect" id="node5" href="tim_8c.html#a7912f2916786a2c33cb6fb8259ade58c" title="MX_TIM3_Init" alt="" coords="187,107,285,133"/>
+<area shape="rect" id="node6" href="usart_8c.html#a052088fe5bb3f807a4b2502e664fd4fd" title="MX_USART2_UART_Init" alt="" coords="155,157,317,184"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="365,81,416,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aef87d3fec667bb34c418f5687e8204c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef87d3fec667bb34c418f5687e8204c1">&#9670;&nbsp;</a></span>HAL_Delay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_Delay </td>
+          <td>(</td>
+          <td class="paramtype">__IO uint32_t&#160;</td>
+          <td class="paramname"><em>Delay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Delay</td><td>- czas w milisekundach, na który należy wstrzymać działanie programu. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00241">241</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_aef87d3fec667bb34c418f5687e8204c1_icgraph.png" border="0" usemap="#main_8c_aef87d3fec667bb34c418f5687e8204c1_icgraph" alt=""/></div>
+<map name="main_8c_aef87d3fec667bb34c418f5687e8204c1_icgraph" id="main_8c_aef87d3fec667bb34c418f5687e8204c1_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="147,111,232,137"/>
+<area shape="rect" id="node4" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="581,85,632,112"/>
+<area shape="rect" id="node7" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="150,161,229,188"/>
+<area shape="rect" id="node8" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="140,212,239,239"/>
+<area shape="rect" id="node9" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="151,60,228,87"/>
+<area shape="rect" id="node3" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="287,161,427,188"/>
+<area shape="rect" id="node5" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="294,111,419,137"/>
+<area shape="rect" id="node6" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="475,60,533,87"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae494a9643f29b87d6d81e5264e60e57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae494a9643f29b87d6d81e5264e60e57b">&#9670;&nbsp;</a></span>HAL_UART_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_UART_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype">UART_HandleTypeDef *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja obsługująca przerwanie po odebraniu danych. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00219">219</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="abcdf9b59049eccbc87d54042f9235b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcdf9b59049eccbc87d54042f9235b1a">&#9670;&nbsp;</a></span>HAL_UART_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_UART_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype">UART_HandleTypeDef *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja obsługująca przerwanie po wysłaniu danych. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00229">229</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">int</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00968">968</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph.png" border="0" usemap="#main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" alt=""/></div>
+<map name="main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" id="main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration. " alt="" coords="114,5,257,32"/>
+<area shape="rect" id="node4" href="gpio_8c.html#ac724e431d2af879252de35615be2bdea" title="MX_GPIO_Init" alt="" coords="134,208,237,235"/>
+<area shape="rect" id="node5" href="tim_8c.html#ad1f9d42690163f73f73e5b820c81ca14" title="MX_TIM1_Init" alt="" coords="136,107,235,133"/>
+<area shape="rect" id="node7" href="tim_8c.html#a7912f2916786a2c33cb6fb8259ade58c" title="MX_TIM3_Init" alt="" coords="136,157,235,184"/>
+<area shape="rect" id="node8" href="usart_8c.html#a052088fe5bb3f807a4b2502e664fd4fd" title="MX_USART2_UART_Init" alt="" coords="104,56,267,83"/>
+<area shape="rect" id="node9" href="main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="667,284,740,311"/>
+<area shape="rect" id="node10" href="main_8c.html#ad7b32593f513de2db1142dfcc3a2ff65" title="Funkcja pozwalająca odebrać liczbę całkowitą. " alt="" coords="140,664,231,691"/>
+<area shape="rect" id="node12" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="320,461,460,488"/>
+<area shape="rect" id="node14" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="660,461,747,488"/>
+<area shape="rect" id="node18" href="main_8c.html#ac2c750bf9a93408a4399329068ff09d8" title="Funkcja pozwalająca otworzyć chwytak. " alt="" coords="525,563,600,589"/>
+<area shape="rect" id="node19" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="327,411,453,437"/>
+<area shape="rect" id="node20" href="main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="519,309,606,336"/>
+<area shape="rect" id="node21" href="main_8c.html#aa92be402b1276438c663ab0af2e56034" title="Funkcja pozwalająca zamknąć chwytak. " alt="" coords="147,715,224,741"/>
+<area shape="rect" id="node22" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="156,411,215,437"/>
+<area shape="rect" id="node3" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence. " alt="" coords="339,69,441,96"/>
+<area shape="rect" id="node6" href="tim_8c.html#a708f19bbc41b292fccf38f2d9796c46a" title="HAL_TIM_MspPostInit" alt="" coords="315,145,465,172"/>
+<area shape="rect" id="node11" href="main_8c.html#a0da3452cae452719df4089ac75fb14b1" title="Funkcja odbierająca jeden znak z USART&#45;a oraz wysyłająca ten sam znak z powrotem. ..." alt="" coords="352,664,428,691"/>
+<area shape="rect" id="node13" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="520,411,605,437"/>
+<area shape="rect" id="node15" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="513,461,612,488"/>
+<area shape="rect" id="node16" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="523,512,602,539"/>
+<area shape="rect" id="node17" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="524,360,601,387"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a79bf915baf8c7f32d9ed62add6f16b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bf915baf8c7f32d9ed62add6f16b1f">&#9670;&nbsp;</a></span>moveAlpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t moveAlpha </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>del</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>skok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. Pozwala regulować prędkością tego ruchu, poprzez podzielenie kąta o jaki należy obrócic przegub na mniejszcze kąty oraz ustalic czas w milisekundach między kolejnymi obrotami o podane mniejsze kąty.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>- kąt o jaki należy obrócic przegub. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">del</td><td>- przerwa w milisekundach, między kolejnymi obrotami o mniejsze kąty. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">skok</td><td>- wartość o jaka będzie się zmieniac wartość w rejestrze pozwalająca określić jak małe będą kąty pośrednie.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- zwraca kiedy funkcja się zakończy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00270">270</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_cgraph.png" border="0" usemap="#main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_cgraph" alt=""/></div>
+<map name="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_cgraph" id="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="139,5,225,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_icgraph.png" border="0" usemap="#main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_icgraph" alt=""/></div>
+<map name="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_icgraph" id="main_8c_a79bf915baf8c7f32d9ed62add6f16b1f_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="312,5,452,32"/>
+<area shape="rect" id="node4" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="139,56,264,83"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="500,56,551,83"/>
+<area shape="rect" id="node5" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="353,107,411,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeac4a4e4200308592b2b65edd4e43f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac4a4e4200308592b2b65edd4e43f18">&#9670;&nbsp;</a></span>moveBeta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">* uint8_t moveBeta </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>del</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>skok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. Pozwala regulować prędkością tego ruchu, poprzez podzielenie kąta o jaki należy obrócic przegub na mniejszcze kąty oraz ustalic czas w milisekundach między kolejnymi obrotami o podane mniejsze kąty.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">beta</td><td>- kąt o jaki należy obrócic przegub. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">del</td><td>- przerwa w milisekundach, między kolejnymi obrotami o mniejsze kąty. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">skok</td><td>- wartość o jaka będzie się zmieniac wartość w rejestrze pozwalająca określić jak małe będą kąty pośrednie.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- zwraca kiedy funkcja się zakończy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00338">338</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_aeac4a4e4200308592b2b65edd4e43f18_cgraph.png" border="0" usemap="#main_8c_aeac4a4e4200308592b2b65edd4e43f18_cgraph" alt=""/></div>
+<map name="main_8c_aeac4a4e4200308592b2b65edd4e43f18_cgraph" id="main_8c_aeac4a4e4200308592b2b65edd4e43f18_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="132,5,219,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_aeac4a4e4200308592b2b65edd4e43f18_icgraph.png" border="0" usemap="#main_8c_aeac4a4e4200308592b2b65edd4e43f18_icgraph" alt=""/></div>
+<map name="main_8c_aeac4a4e4200308592b2b65edd4e43f18_icgraph" id="main_8c_aeac4a4e4200308592b2b65edd4e43f18_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="305,5,445,32"/>
+<area shape="rect" id="node4" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="132,56,257,83"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="493,56,544,83"/>
+<area shape="rect" id="node5" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="346,107,405,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af0aa87a82b7fe68723cdf2ed03734bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0aa87a82b7fe68723cdf2ed03734bce">&#9670;&nbsp;</a></span>moveGamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t moveGamma </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>gamma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>del</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>skok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. Pozwala regulować prędkością tego ruchu, poprzez podzielenie kąta o jaki należy obrócic przegub na mniejszcze kąty oraz ustalic czas w milisekundach między kolejnymi obrotami o podane mniejsze kąty.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gamma</td><td>- kąt o jaki należy obrócic przegub. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">del</td><td>- przerwa w milisekundach, między kolejnymi obrotami o mniejsze kąty. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">skok</td><td>- wartość o jaka będzie się zmieniac wartość w rejestrze pozwalająca określić jak małe będą kąty pośrednie.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- zwraca kiedy funkcja się zakończy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00403">403</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_cgraph.png" border="0" usemap="#main_8c_af0aa87a82b7fe68723cdf2ed03734bce_cgraph" alt=""/></div>
+<map name="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_cgraph" id="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="152,5,239,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_icgraph.png" border="0" usemap="#main_8c_af0aa87a82b7fe68723cdf2ed03734bce_icgraph" alt=""/></div>
+<map name="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_icgraph" id="main_8c_af0aa87a82b7fe68723cdf2ed03734bce_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="325,5,465,32"/>
+<area shape="rect" id="node4" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="152,56,277,83"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="513,56,564,83"/>
+<area shape="rect" id="node5" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="366,107,425,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a988080b4ceeb1e7d6467b02994be79b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988080b4ceeb1e7d6467b02994be79b6">&#9670;&nbsp;</a></span>MoveL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MoveL </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>X1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Z1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>X2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Z2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>Dokladnosc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca przemieścić chwytak po linii prostej (możliwie dokładnie).</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">X1</td><td>- współrzędna X w przestrzeni zadaniowej, w której znajduje się chwytak na początku ruchu. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Y1</td><td>- współrzędna Y w przestrzeni zadaniowej, w której znajduje się chwytak na początku ruchu. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Z1</td><td>- współrzędna Z w przestrzeni zadaniowej, w której znajduje się chwytak na początku ruchu. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">X2</td><td>- współrzędna X w przestrzeni zadaniowej, do której chcemy przemieścic chwytak. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Y2</td><td>- współrzędna Y w przestrzeni zadaniowej, do której chcemy przemieścic chwytak. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Z2</td><td>- współrzędna Z w przestrzeni zadaniowej, do której chcemy przemieścic chwytak. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dokladnosc</td><td>- ilość punktów pośrednich między pozycją początkową, a końcową (maksymalnie 20).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- kiedy chwytak został przesunięty. </td></tr>
+    <tr><td class="paramname">1</td><td>- kiedy chwytak nie został przesunięty (pozycja początkowa i końcowa jest identyczna). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00659">659</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a988080b4ceeb1e7d6467b02994be79b6_cgraph.png" border="0" usemap="#main_8c_a988080b4ceeb1e7d6467b02994be79b6_cgraph" alt=""/></div>
+<map name="main_8c_a988080b4ceeb1e7d6467b02994be79b6_cgraph" id="main_8c_a988080b4ceeb1e7d6467b02994be79b6_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="112,107,237,133"/>
+<area shape="rect" id="node3" href="main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="291,5,378,32"/>
+<area shape="rect" id="node5" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="296,56,373,83"/>
+<area shape="rect" id="node7" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="292,107,377,133"/>
+<area shape="rect" id="node8" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="295,157,374,184"/>
+<area shape="rect" id="node9" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="285,208,384,235"/>
+<area shape="rect" id="node4" href="main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="439,5,512,32"/>
+<area shape="rect" id="node6" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="432,132,519,159"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a988080b4ceeb1e7d6467b02994be79b6_icgraph.png" border="0" usemap="#main_8c_a988080b4ceeb1e7d6467b02994be79b6_icgraph" alt=""/></div>
+<map name="main_8c_a988080b4ceeb1e7d6467b02994be79b6_icgraph" id="main_8c_a988080b4ceeb1e7d6467b02994be79b6_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="112,5,163,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abc8df7fa4f3eec871b9b348a6cb592e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8df7fa4f3eec871b9b348a6cb592e9">&#9670;&nbsp;</a></span>moveZero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t moveZero </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>zero</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>del</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>skok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca zmieniać kąt obrotu manipulatora. Pozwala regulować prędkością tego ruchu, poprzez podzielenie kąta o jaki należy obrócic przegub na mniejszcze kąty oraz ustalic czas w milisekundach między kolejnymi obrotami o podane mniejsze kąty.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">zero</td><td>- kąt o jaki należy obrócic przegub. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">del</td><td>- przerwa w milisekundach, między kolejnymi obrotami o mniejsze kąty. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">skok</td><td>- wartość o jaka będzie się zmieniac wartość w rejestrze pozwalająca określić jak małe będą kąty pośrednie.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- zwraca kiedy funkcja się zakończy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00468">468</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_cgraph.png" border="0" usemap="#main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_cgraph" alt=""/></div>
+<map name="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_cgraph" id="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="131,5,217,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_icgraph.png" border="0" usemap="#main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_icgraph" alt=""/></div>
+<map name="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_icgraph" id="main_8c_abc8df7fa4f3eec871b9b348a6cb592e9_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="304,5,444,32"/>
+<area shape="rect" id="node4" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="131,56,256,83"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="492,56,543,83"/>
+<area shape="rect" id="node5" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="345,107,403,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2c750bf9a93408a4399329068ff09d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c750bf9a93408a4399329068ff09d8">&#9670;&nbsp;</a></span>openGrip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void openGrip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca otworzyć chwytak. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00537">537</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ac2c750bf9a93408a4399329068ff09d8_icgraph.png" border="0" usemap="#main_8c_ac2c750bf9a93408a4399329068ff09d8_icgraph" alt=""/></div>
+<map name="main_8c_ac2c750bf9a93408a4399329068ff09d8_icgraph" id="main_8c_ac2c750bf9a93408a4399329068ff09d8_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a5a7834ccd55982ba2f868a6da96ce1ab" title="Funkcja ustawiająca manipulator w pozycji początkowej. " alt="" coords="128,5,268,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="316,31,367,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5a7834ccd55982ba2f868a6da96ce1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7834ccd55982ba2f868a6da96ce1ab">&#9670;&nbsp;</a></span>PozycjaPoczatkowa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t PozycjaPoczatkowa </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja ustawiająca manipulator w pozycji początkowy. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00551">551</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_cgraph.png" border="0" usemap="#main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_cgraph" alt=""/></div>
+<map name="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_cgraph" id="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="200,5,285,32"/>
+<area shape="rect" id="node4" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="193,56,292,83"/>
+<area shape="rect" id="node5" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="203,107,282,133"/>
+<area shape="rect" id="node6" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="204,157,281,184"/>
+<area shape="rect" id="node7" href="main_8c.html#ac2c750bf9a93408a4399329068ff09d8" title="Funkcja pozwalająca otworzyć chwytak. " alt="" coords="205,208,280,235"/>
+<area shape="rect" id="node3" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="340,81,427,108"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_icgraph.png" border="0" usemap="#main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_icgraph" alt=""/></div>
+<map name="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_icgraph" id="main_8c_a5a7834ccd55982ba2f868a6da96ce1ab_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="193,5,244,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a70af21c671abfcc773614a9a4f63d920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70af21c671abfcc773614a9a4f63d920">&#9670;&nbsp;</a></span>SystemClock_Config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemClock_Config </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Initializes the CPU, AHB and APB busses clocks</p>
+<p>Initializes the CPU, AHB and APB busses clocks</p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l01147">1147</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a70af21c671abfcc773614a9a4f63d920_cgraph.png" border="0" usemap="#main_8c_a70af21c671abfcc773614a9a4f63d920_cgraph" alt=""/></div>
+<map name="main_8c_a70af21c671abfcc773614a9a4f63d920_cgraph" id="main_8c_a70af21c671abfcc773614a9a4f63d920_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence. " alt="" coords="196,5,297,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph.png" border="0" usemap="#main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph" alt=""/></div>
+<map name="main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph" id="main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="196,5,247,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0da3452cae452719df4089ac75fb14b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da3452cae452719df4089ac75fb14b1">&#9670;&nbsp;</a></span>UartEcho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char UartEcho </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwala odebrać jeden znak wysłany z komputera oraz wysłać z powrotem ten sam znak.</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Znak odebrany od urządzenia zewnętrznego. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00137">137</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a0da3452cae452719df4089ac75fb14b1_icgraph.png" border="0" usemap="#main_8c_a0da3452cae452719df4089ac75fb14b1_icgraph" alt=""/></div>
+<map name="main_8c_a0da3452cae452719df4089ac75fb14b1_icgraph" id="main_8c_a0da3452cae452719df4089ac75fb14b1_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#ad7b32593f513de2db1142dfcc3a2ff65" title="Funkcja pozwalająca odebrać liczbę całkowitą. " alt="" coords="129,5,220,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="268,5,319,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9da5be2e36ac953449e0dc9610b75dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9da5be2e36ac953449e0dc9610b75dd7">&#9670;&nbsp;</a></span>UartPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UartPrint </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca wysłać ciąg znaków podanych jako parametr do zewnętrznego urządzenia (terminalu) </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>- ciąg znaków, które chcemy wysłać.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Liczbę nieprzesłanych znaków. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00156">156</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a9da5be2e36ac953449e0dc9610b75dd7_icgraph.png" border="0" usemap="#main_8c_a9da5be2e36ac953449e0dc9610b75dd7_icgraph" alt=""/></div>
+<map name="main_8c_a9da5be2e36ac953449e0dc9610b75dd7_icgraph" id="main_8c_a9da5be2e36ac953449e0dc9610b75dd7_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="127,107,213,133"/>
+<area shape="rect" id="node5" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="541,81,592,108"/>
+<area shape="rect" id="node3" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="261,56,387,83"/>
+<area shape="rect" id="node4" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="435,5,493,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a13ba83b58516abbf468a40d577a09453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ba83b58516abbf468a40d577a09453">&#9670;&nbsp;</a></span>UartPrintInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UartPrintInt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>liczba</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca wysłać liczbę całkowitą przez USART-a. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">liczba</td><td>- Liczba całkowita do wysłania</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>return Liczbę nieprzesłanych znaków. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00176">176</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a13ba83b58516abbf468a40d577a09453_cgraph.png" border="0" usemap="#main_8c_a13ba83b58516abbf468a40d577a09453_cgraph" alt=""/></div>
+<map name="main_8c_a13ba83b58516abbf468a40d577a09453_cgraph" id="main_8c_a13ba83b58516abbf468a40d577a09453_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="140,5,213,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a13ba83b58516abbf468a40d577a09453_icgraph.png" border="0" usemap="#main_8c_a13ba83b58516abbf468a40d577a09453_icgraph" alt=""/></div>
+<map name="main_8c_a13ba83b58516abbf468a40d577a09453_icgraph" id="main_8c_a13ba83b58516abbf468a40d577a09453_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a550764bc49c9ad450d16d052c466e46c" title="Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. " alt="" coords="140,56,265,83"/>
+<area shape="rect" id="node4" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="420,56,471,83"/>
+<area shape="rect" id="node3" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="313,5,372,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad7b32593f513de2db1142dfcc3a2ff65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b32593f513de2db1142dfcc3a2ff65">&#9670;&nbsp;</a></span>UartReadInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UartReadInt </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pozwalająca odebrać liczbę całkowitą. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>- wskaźnik na zmiennę, do której ma zostac zapisana odebrana liczba. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>- minimalna liczba jaką spodziewamy się odbierać. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>- maksymalna liczba jaką spodziewamy się odbierać.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">1</td><td>- odebrano liczbę. </td></tr>
+    <tr><td class="paramname">0</td><td>- w odebranych danych był znak 'x' lub 'ESC' </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00196">196</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_cgraph.png" border="0" usemap="#main_8c_ad7b32593f513de2db1142dfcc3a2ff65_cgraph" alt=""/></div>
+<map name="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_cgraph" id="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a0da3452cae452719df4089ac75fb14b1" title="Funkcja odbierająca jeden znak z USART&#45;a oraz wysyłająca ten sam znak z powrotem. ..." alt="" coords="144,5,220,32"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_icgraph.png" border="0" usemap="#main_8c_ad7b32593f513de2db1142dfcc3a2ff65_icgraph" alt=""/></div>
+<map name="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_icgraph" id="main_8c_ad7b32593f513de2db1142dfcc3a2ff65_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="144,5,195,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a550764bc49c9ad450d16d052c466e46c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550764bc49c9ad450d16d052c466e46c">&#9670;&nbsp;</a></span>UstawManipulator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t UstawManipulator </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>Z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja ustawiająca manipulator w zadanym punkcie przestrzeni zadaniowej. Wykorzystuje ona do obliczenia odpowiednich kątów kinematykę odwrotną podaną w postaci jawnej. Po obliczeniu kątów ustawia je powodując ruch manipulatora.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">X</td><td>- współrzędna X w przestrzeni zadaniowej. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Y</td><td>- współrzędna Y w przestrzeni zadaniowej. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Z</td><td>- współrzędna Z w przestrzeni zadaniowej.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Zwracane wartości</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>- kiedy funkcja zakończy się poprawnie. </td></tr>
+    <tr><td class="paramname">1</td><td>- kiedy podane współrzędne wykraczają poza przestrzeń zadaniową. Próbujemy obrócic manipulator za daleko. </td></tr>
+    <tr><td class="paramname">2</td><td>- kiedy podane współrzędne wykraczają poza przestrzeń zadaniową. Próbujemy sięgnąc za daleko lub za blisko. </td></tr>
+    <tr><td class="paramname">3</td><td>- kiedy podane współrzędne wykraczają poza przestrzeń zadaniową. Próbujemy ustaic ostatni człon manipulatora za wysoko. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00577">577</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a550764bc49c9ad450d16d052c466e46c_cgraph.png" border="0" usemap="#main_8c_a550764bc49c9ad450d16d052c466e46c_cgraph" alt=""/></div>
+<map name="main_8c_a550764bc49c9ad450d16d052c466e46c_cgraph" id="main_8c_a550764bc49c9ad450d16d052c466e46c_cgraph">
+<area shape="rect" id="node2" href="main_8c.html#a13ba83b58516abbf468a40d577a09453" title="Funkcja pozwalająca wysłac liczbę całkowitą przez USART&#45;a. " alt="" coords="185,5,271,32"/>
+<area shape="rect" id="node4" href="main_8c.html#abc8df7fa4f3eec871b9b348a6cb592e9" title="Funkcja pozwalająca zmieniać kąt obrotu manipulatora. " alt="" coords="189,56,267,83"/>
+<area shape="rect" id="node6" href="main_8c.html#a79bf915baf8c7f32d9ed62add6f16b1f" title="Funkcja pozwalająca podnieść pierwszy przegub o zadany kąt. " alt="" coords="185,107,271,133"/>
+<area shape="rect" id="node7" href="main_8c.html#aeac4a4e4200308592b2b65edd4e43f18" title="Funkcja pozwalająca zmieniać kąt między pierwszym i drugim przegubem. " alt="" coords="189,157,267,184"/>
+<area shape="rect" id="node8" href="main_8c.html#af0aa87a82b7fe68723cdf2ed03734bce" title="Funkcja pozwalająca zmieniać kąt między drugim przegubem, a chwytakiem. " alt="" coords="179,208,277,235"/>
+<area shape="rect" id="node3" href="main_8c.html#a9da5be2e36ac953449e0dc9610b75dd7" title="Funkcja pozwalająca wysłać ciąg znaków do zewnętrznego urządzenia (terminalu) " alt="" coords="332,5,405,32"/>
+<area shape="rect" id="node5" href="main_8c.html#aef87d3fec667bb34c418f5687e8204c1" title="Redefinicja funkcji pozwalającej zatrzymać działanie programu na podany czas w milisekundach. " alt="" coords="325,132,412,159"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a550764bc49c9ad450d16d052c466e46c_icgraph.png" border="0" usemap="#main_8c_a550764bc49c9ad450d16d052c466e46c_icgraph" alt=""/></div>
+<map name="main_8c_a550764bc49c9ad450d16d052c466e46c_icgraph" id="main_8c_a550764bc49c9ad450d16d052c466e46c_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a988080b4ceeb1e7d6467b02994be79b6" title="Funkcja pozwalająca przemieścić chwytak po lini prostej (możliwie dokładnie). " alt="" coords="179,5,237,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point. " alt="" coords="285,31,336,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja zmiennych</h2>
+<a id="a5eae7af46e982ef168412df1135623d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eae7af46e982ef168412df1135623d0">&#9670;&nbsp;</a></span>MaxymalneZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t MaxymalneZ[] = {19, 19, 19, 18, 17, 16, 15, 13, 11, 9}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tablica z kolejnymi maksymalnymi wartościami współrzędnej Z, poczynając od r = 18, aż do r = 27, gdzie r jest długością ramienia od środka podastawy do końca chwytaka. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00093">93</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a1c11fe6524ed9bf1f8eec662d4546ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c11fe6524ed9bf1f8eec662d4546ab5">&#9670;&nbsp;</a></span>rx_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char rx_data = '0'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Zmienna przechowująca odebrane dane. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00100">100</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="aaf15ad508746eaf707a7a8fe342c329a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf15ad508746eaf707a7a8fe342c329a">&#9670;&nbsp;</a></span>tx_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char tx_data[32]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tablica przechowująca dane do wysłania. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00107">107</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a584081da60a691a629f5daa931fe9697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584081da60a691a629f5daa931fe9697">&#9670;&nbsp;</a></span>usart_rx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t usart_rx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Flaga ustawiana przy odebraniu danych z USART-a. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00114">114</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="abb506becc4c517474633dd64147be57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb506becc4c517474633dd64147be57d">&#9670;&nbsp;</a></span>usart_tx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t usart_tx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Flaga ustawiana po wysłaniu danych z USART-a. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="main_8c_source.html#l00121">121</a> pliku <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d6a995d595fb83c738de5770d130fb21.html">USP</a></li><li class="navelem"><a class="el" href="dir_33347c78de22ab335cb94d46be2ef91a.html">STM</a></li><li class="navelem"><a class="el" href="dir_2c7b60441e0c8b29e382900564d1070a.html">Test_doxy</a></li><li class="navelem"><a class="el" href="dir_9e712b2e5a5cc08cf18920f01673154e.html">Manipulator</a></li><li class="navelem"><a class="el" href="dir_b604608a11007dc70b60ee61dbf40d07.html">Src</a></li><li class="navelem"><a class="el" href="main_8c.html">main.c</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
